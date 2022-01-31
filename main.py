@@ -26,7 +26,7 @@ def get_town_by_letter(first_letter: str):
 
 def get_last_letter(town: str):
     for i in range(len(town) - 1, -1, -1):
-        if town[i] != 'Ъ' and town[i] != 'Ь':
+        if town[i] != 'Ъ' and town[i] != 'Ь' and town[i] != 'Ы':
             return town[i]
 
 
